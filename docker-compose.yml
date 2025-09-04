@@ -8,4 +8,4 @@ services:
       - "3026:3026"
     environment: 
       # STATIC ACCOUNT SWAGGER  
-      PORT: ${DB_HOST}
+      PORT: ${PORT}
